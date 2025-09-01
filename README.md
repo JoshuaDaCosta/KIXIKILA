@@ -36,10 +36,36 @@ O objetivo é evoluir esse projeto para aplicações **web ou desktop**, adicion
 
 Ou, se preferir, clone o repositório direto:
 ```bash
-git clone https://github.com/seu-usuario/kixikila.git
+git clone https://github.com/JoshuaDaCosta/kixikila.git
 
 ```
 ```bash
 python main.py
 ```
+## ▶️ Como usar
+1. Abra o terminal na pasta raiz do projeto (onde está o `conta.py`).  
+2. Execute:
+```bash
+python conta.py
+```
+⚠️ Obs.:
+- O arquivo conta.py está dentro da pasta classes, deve importar assim:
+```bash
+from classes.CONTA import Conta
+```
+- A estrutura de pastas deve ser assim:
+```kixikila/
+│── main.py
+│── classes/
+│     └── conta.py
+```
 
+- O menu será exibido no terminal e você poderá escolher:
+
+1 para debitar
+
+2 para creditar
+
+3 para transferir
+
+4 para consultar saldo
